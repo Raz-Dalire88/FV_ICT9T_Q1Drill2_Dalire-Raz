@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+    <style> 
+        body{
+            font-family: Gill Sans;
+        }
+        section{
+            display: block;
+            margin: auto;
+            width: 600px;
+            height: auto;
+            background-color: rgb(255, 182, 193);
+            box-shadow: 0px 3px 10px rgb(146, 76, 174);
+            padding: 15px;
+        }
+        header{
+            text-align: center;
+        }
+
+        Image{
+            height: 100px;
+            width: 100px;
+            display: block;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rate a Movie</h1>
+        <img src="https://www.clipartmax.com/png/full/310-3105859_film-cinema-icon-png.png" width="100" alt="movie logo">
+        <p> Say something about the content</p>
+    </header>
+    <br>
+
+    <section>
+        <form action="">
+            <label for="movie">Select a Movie</label>
+            <select id="movie" name="movie">
+                <option value="">Select a Movie</option>
+                <option value="movie1">Freaky Friday</option>
+                <option value="movie2">The Jawbreaker</option>
+                <option value="movie3">Mean Girls</option>
+            </select>
+            <br><br>
+
+            <label for="Genre">Genre/s</label>
+            <br>
+            <input type="checkbox" id="Genre" name="genre1" value="genre1">
+            <label for="Genre1">Comedy</label>
+             <input type="checkbox" id="Genre" name="genre2" value="genre2">
+            <label for="Genre2">Drama</label>
+             <input type="checkbox" id="Genre" name="genre3" value="genre3">
+            <label for="Genre3">Mystery</label>
+             <input type="checkbox" id="Genre" name="genre4" value="genre4">
+            <label for="Genre4">Thriller</label>
+             <input type="checkbox" id="Genre" name="genre5" value="genre5">
+            <label for="Genre5">Action</label>
+
+            <br><br>
+            <label for="rate">Rating</label></label>
+            <br>
+            <input type="radio" id="rate1" name="rating" value="rate1">
+            <label for="rate1">⭐</label>
+                 <input type="radio" id="rate2" name="rating" value="rate2">
+            <label for="rate2">⭐⭐</label>
+                 <input type="radio" id="rate3" name="rating" value="rate3">
+            <label for="rate3">⭐⭐⭐</label>
+                 <input type="radio" id="rate4" name="rating" value="rate4">
+            <label for="rate4">⭐⭐⭐⭐</label>
+                 <input type="radio" id="rate5" name="rating" value="rate5">
+            <label for="rate5">⭐⭐⭐⭐⭐</label>
+                <br><br>
+
+                <textarea id="review" name="review" cols="40" rows="4" placeholder="Write your review here..."></textarea>
+            
+                <br><br>
+
+                <input type="submit" id="submit" name="submit" value="Submit a Review">
+
+                <br>
+                For more review suggestions, please click <a href="https://medium.com/@thecinemascale/10-essential-elements-for-movie-reviews-921230d7fb1e" target="_blank">here.</a>
+
+        </form>
+    </section>
+
+</body>
+</html>
